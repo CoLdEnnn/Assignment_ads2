@@ -11,7 +11,7 @@ public interface MyList<T> extends Iterable<T>{
     void removeFirst();
     void removeLast();
     void sort();
-    int indexOf(Object object);
+    int indexOf(T item);
     int lastIndexOf(Object object);
     boolean exists(Object object);
     public Object[] toArray();
