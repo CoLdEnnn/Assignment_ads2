@@ -38,7 +38,8 @@ public class MyArrayList<T> implements MyList<T> {
 
     @Override
     public void add(int index, T element) {
-
+        checkIndex(index);
+        elements[index] = element;
     }
 
     @Override
