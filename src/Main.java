@@ -23,6 +23,10 @@ public class Main {
 
         print(linkedList);
 
+        MyArrayList<Student> list2 = new MyArrayList<>();
+        list2.add(new Student("Akerke", 20));
+        list2.add(new Student("Carl", 30));
+        list2.add(new Student("Danial", 40));
     }
 
     public static void print(MyList<Integer> list) {
